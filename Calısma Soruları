@@ -1,1 +1,208 @@
-Programlama Temelleri Çalışma Sorularıdır
+BÖLÜM 1: PROBLEM ÇÖZME VE ALGORİTMA MANTIĞI (%20 - 10 Soru)
+1. Soru: Bir sayının karesini hesaplayan bir algoritmanın ilk ve son adımı ne olmalıdır?
+
+Cevap: 1. Adım: Başla, Son Adım: Bitir.
+
+2. Soru: Akış şemasında kullanıcıdan "isim" bilgisini almak için hangi şekil kullanılır?
+
+Cevap: Paralelkenar.
+
+3. Soru: A = 12, B = 4. Sonuc = A / B + 2 işleminde işlem önceliğine göre sonuç kaçtır?
+
+Cevap: 5.0 (Önce bölme yapılır).
+
+4. Soru: Bir sayının 10'dan büyük olup olmadığını kontrol eden akış şeması sembolü hangisidir?
+
+Cevap: Eşkenar Dörtgen (Karar sembolü).
+
+5. Soru: "Eğer hava yağmurluysa şemsiye al, değilse güneş gözlüğü al" ifadesindeki mantıksal yapı nedir?
+
+Cevap: Karar Yapısı (If-Else).
+
+6. Soru: Algoritmada bir hata oluştuğunda bu hatayı bulup düzeltme işlemine ne denir?
+
+Cevap: Hata Ayıklama (Debugging).
+
+7. Soru: x = 5, y = 5. x == y ifadesinin sonucu nedir?
+
+Cevap: True.
+
+8. Soru: Bir programın adım adım nasıl çalışacağını gösteren görsel şemaya ne denir?
+
+Cevap: Akış Diyagramı (Flowchart).
+
+9. Soru: not (5 < 2) ifadesinin sonucu neden True çıkar?
+
+Cevap: 5 < 2 ifadesi yanlıştır (False), not operatörü bu sonucu tersine çevirerek True yapar.
+
+10. Soru: A = "10", B = "20". A + B işleminin sonucu neden 30 değildir?
+
+Cevap: Veriler tırnak içinde olduğu için metindir, toplama yerine yan yana birleştirme yapılır ("1020").
+
+BÖLÜM 3: DEĞİŞKENLER, VERİ TİPLERİ VE LİSTELER (%40 - 20 Soru)
+11. Soru: yas = 15 değişkeninin veri tipi nedir?
+
+Cevap: Integer (int).
+
+12. Soru: meyveler = ["elma", "armut", "çilek"] listesindeki "armut" elemanına nasıl erişilir?
+
+Cevap: meyveler[1]
+
+13. Soru: isim = "Python". print(isim[0]) komutunun çıktısı nedir?
+
+Cevap: P.
+
+14. Soru: Bir listenin sonuna yeni bir eleman ekleyen komut hangisidir?
+
+Cevap: append()
+
+15. Soru: liste = [10, 20, 30]. len(liste) komutu hangi sonucu verir?
+
+Cevap: 3.
+
+16. Soru: Ondalıklı sayıları (örneğin 3.14) temsil eden veri tipi hangisidir?
+
+Cevap: Float.
+
+17. Soru: puanlar = [10, 50, 80]. Listenin ilk elemanını 100 yapmak için gereken kodu yazınız.
+
+Cevap: puanlar[0] = 100
+
+18. Soru: metin = "Bilişim". print(metin * 2) komutu ne çıktı verir?
+
+Cevap: BilişimBilişim.
+
+19. Soru: sayi = "25". Bu değişkeni matematiksel işleme sokabilmek için hangi fonksiyona ihtiyaç vardır?
+
+Cevap: int(sayi)
+
+20. Soru: renkler = ["mavi", "yeşil"]. Listeden "mavi" elemanını silen kodu yazınız.
+
+Cevap: renkler.remove("mavi")
+
+21. Soru: 17 % 5 işleminin sonucu (mod alma) kaçtır?
+
+Cevap: 2.
+
+22. Soru: ad = "ali". Bu ismin sadece baş harfini büyük yapan kodu yazınız.
+
+Cevap: ad.capitalize()
+
+23. Soru: liste1 = [1, 2], liste2 = [3, 4]. İki listeyi birleştirip liste3 yapan kodu yazınız.
+
+Cevap: liste3 = liste1 + liste2
+
+24. Soru: 7 // 2 işleminin (tam bölme) sonucu nedir?
+
+Cevap: 3.
+
+25. Soru: isim = "Merhaba". print(isim[-1]) komutu hangi harfi verir?
+
+Cevap: a.
+
+26. Soru: type(True) komutunun çıktısı nedir?
+
+Cevap: <class 'bool'>
+
+27. Soru: Bir listenin içindeki elemanları alfabetik olarak sıralayan metod nedir?
+
+Cevap: sort()
+
+28. Soru: Kullanıcıdan sayı alırken int(input()) neden kullanılır?
+
+Cevap: input() veriyi metin olarak alır, matematiksel işlem için tam sayıya çevirmek gerekir.
+
+29. Soru: sehir = "Ankara". print(sehir[0:2]) komutunun çıktısı nedir?
+
+Cevap: An.
+
+30. Soru: liste = [1, 2, 3, 4, 5]. Listenin son elemanını çıkaran komutu yazınız.
+
+Cevap: liste.pop()
+
+BÖLÜM 4: KARAR YAPILARI (IF - ELIF - ELSE) (%40 - 20 Soru)
+31. Soru: if kelimesinin Türkçe karşılığı nedir ve ne amaçla kullanılır?
+
+Cevap: "Eğer" demektir, bir koşulun doğru olup olmadığını kontrol etmek için kullanılır.
+
+32. Soru: Girilen sayı 0'dan büyükse "Pozitif" yazan Python kodunu yazınız.
+
+Cevap: ```python
+if sayi > 0:
+print("Pozitif")
+
+
+**33. Soru:** Bir sayının çift olup olmadığını kontrol eden `if` koşulu nasıl yazılır?  
+**Cevap:** `if sayi % 2 == 0:`
+
+**34. Soru:** `if` koşulu sağlanmadığında çalışan alternatif blok hangisidir?  
+**Cevap:** `else:`
+
+**35. Soru:** Bir öğrencinin notu 50 ve üzeriyse "Geçti", değilse "Kaldı" yazan kodu yazınız.  
+**Cevap:** ```python
+if not >= 50:
+    print("Geçti")
+else:
+    print("Kaldı")
+36. Soru: Birden fazla koşulu kontrol etmek için if ile else arasına hangi komut gelir?
+
+Cevap: elif
+
+37. Soru: if satırının sonuna hangi noktalama işareti konulmalıdır?
+
+Cevap: İki nokta üst üste (:)
+
+38. Soru: yas = 18. if yas >= 18: koşulu sağlandığında ekrana ne yazdırılacağını belirleyen boşluğa ne denir?
+
+Cevap: Girinti (Indentation).
+
+39. Soru: Kullanıcıdan alınan şifre "1234" ise "Giriş Başarılı" yazan kodu yazınız.
+
+Cevap: ```python
+if sifre == "1234":
+print("Giriş Başarılı")
+
+
+**40. Soru:** Bir sayının hem 3'e hem de 5'e bölündüğünü kontrol eden `if` satırını yazınız.  
+**Cevap:** `if sayi % 3 == 0 and sayi % 5 == 0:`
+
+**41. Soru:** `x = 10`, `y = 20`. `if x > y:` koşulu doğru mudur?  
+**Cevap:** Hayır, yanlıştır (False).
+
+**42. Soru:** Hava sıcaklığı 30 dereceden fazlaysa "Sıcak", 15-30 arasıysa "Ilık" yazan `elif` yapısını yazınız.  
+**Cevap:** ```python
+if sicaklik > 30:
+    print("Sıcak")
+elif sicaklik >= 15:
+    print("Ilık")
+43. Soru: if 5 != 3: ifadesi doğru mudur?
+
+Cevap: Evet, doğrudur. (5, 3'e eşit değildir).
+
+44. Soru: Kullanıcının girdiği isim "Ali" ise veya "Veli" ise "Merhaba" yazan kodu yazınız.
+
+Cevap: if isim == "Ali" or isim == "Veli": print("Merhaba")
+
+45. Soru: Bir sayının 10 ile 100 arasında (sınırlar dahil değil) olup olmadığını kontrol eden kodu yazınız.
+
+Cevap: if sayi > 10 and sayi < 100:
+
+46. Soru: if bloğu içine hiçbir kod yazılmayacaksa hata almamak için ne kullanılır?
+
+Cevap: pass
+
+47. Soru: Girilen bir harfin "a" olup olmadığını kontrol eden kodu yazınız.
+
+Cevap: if harf == "a":
+
+48. Soru: Bir listenin içinde "elma" olup olmadığını kontrol eden if yapısını yazınız.
+
+Cevap: if "elma" in meyveler:
+
+49. Soru: x = 5. if x: yazıldığında bu koşul doğru sayılır mı?
+
+Cevap: Evet, Python'da 0 dışındaki sayılar mantıksal olarak True kabul edilir.
+
+50. Soru: Bir sayının hem pozitif hem de tek sayı olduğunu kontrol eden kodu yazınız.
+
+Cevap: if sayi > 0 and sayi % 2 != 0:
