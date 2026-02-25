@@ -1,208 +1,267 @@
-BÖLÜM 1: PROBLEM ÇÖZME VE ALGORİTMA MANTIĞI (%20 - 10 Soru)
-1. Soru: Bir sayının karesini hesaplayan bir algoritmanın ilk ve son adımı ne olmalıdır?
+BÖLÜM 1: PROBLEM ÇÖZME VE ALGORİTMALAR (%20 - 10 Soru)
+1. Soru (Teorik): Algoritma yazarken adımların net ve açık olması kuralına ne denir?
 
-Cevap: 1. Adım: Başla, Son Adım: Bitir.
+Cevap: Kesinlik.
 
-2. Soru: Akış şemasında kullanıcıdan "isim" bilgisini almak için hangi şekil kullanılır?
-
-Cevap: Paralelkenar.
-
-3. Soru: A = 12, B = 4. Sonuc = A / B + 2 işleminde işlem önceliğine göre sonuç kaçtır?
-
-Cevap: 5.0 (Önce bölme yapılır).
-
-4. Soru: Bir sayının 10'dan büyük olup olmadığını kontrol eden akış şeması sembolü hangisidir?
-
-Cevap: Eşkenar Dörtgen (Karar sembolü).
-
-5. Soru: "Eğer hava yağmurluysa şemsiye al, değilse güneş gözlüğü al" ifadesindeki mantıksal yapı nedir?
-
-Cevap: Karar Yapısı (If-Else).
-
-6. Soru: Algoritmada bir hata oluştuğunda bu hatayı bulup düzeltme işlemine ne denir?
-
-Cevap: Hata Ayıklama (Debugging).
-
-7. Soru: x = 5, y = 5. x == y ifadesinin sonucu nedir?
-
-Cevap: True.
-
-8. Soru: Bir programın adım adım nasıl çalışacağını gösteren görsel şemaya ne denir?
-
-Cevap: Akış Diyagramı (Flowchart).
-
-9. Soru: not (5 < 2) ifadesinin sonucu neden True çıkar?
-
-Cevap: 5 < 2 ifadesi yanlıştır (False), not operatörü bu sonucu tersine çevirerek True yapar.
-
-10. Soru: A = "10", B = "20". A + B işleminin sonucu neden 30 değildir?
-
-Cevap: Veriler tırnak içinde olduğu için metindir, toplama yerine yan yana birleştirme yapılır ("1020").
-
-BÖLÜM 3: DEĞİŞKENLER, VERİ TİPLERİ VE LİSTELER (%40 - 20 Soru)
-11. Soru: yas = 15 değişkeninin veri tipi nedir?
-
-Cevap: Integer (int).
-
-12. Soru: meyveler = ["elma", "armut", "çilek"] listesindeki "armut" elemanına nasıl erişilir?
-
-Cevap: meyveler[1]
-
-13. Soru: isim = "Python". print(isim[0]) komutunun çıktısı nedir?
-
-Cevap: P.
-
-14. Soru: Bir listenin sonuna yeni bir eleman ekleyen komut hangisidir?
-
-Cevap: append()
-
-15. Soru: liste = [10, 20, 30]. len(liste) komutu hangi sonucu verir?
-
-Cevap: 3.
-
-16. Soru: Ondalıklı sayıları (örneğin 3.14) temsil eden veri tipi hangisidir?
-
-Cevap: Float.
-
-17. Soru: puanlar = [10, 50, 80]. Listenin ilk elemanını 100 yapmak için gereken kodu yazınız.
-
-Cevap: puanlar[0] = 100
-
-18. Soru: metin = "Bilişim". print(metin * 2) komutu ne çıktı verir?
-
-Cevap: BilişimBilişim.
-
-19. Soru: sayi = "25". Bu değişkeni matematiksel işleme sokabilmek için hangi fonksiyona ihtiyaç vardır?
-
-Cevap: int(sayi)
-
-20. Soru: renkler = ["mavi", "yeşil"]. Listeden "mavi" elemanını silen kodu yazınız.
-
-Cevap: renkler.remove("mavi")
-
-21. Soru: 17 % 5 işleminin sonucu (mod alma) kaçtır?
-
-Cevap: 2.
-
-22. Soru: ad = "ali". Bu ismin sadece baş harfini büyük yapan kodu yazınız.
-
-Cevap: ad.capitalize()
-
-23. Soru: liste1 = [1, 2], liste2 = [3, 4]. İki listeyi birleştirip liste3 yapan kodu yazınız.
-
-Cevap: liste3 = liste1 + liste2
-
-24. Soru: 7 // 2 işleminin (tam bölme) sonucu nedir?
-
-Cevap: 3.
-
-25. Soru: isim = "Merhaba". print(isim[-1]) komutu hangi harfi verir?
-
-Cevap: a.
-
-26. Soru: type(True) komutunun çıktısı nedir?
-
-Cevap: <class 'bool'>
-
-27. Soru: Bir listenin içindeki elemanları alfabetik olarak sıralayan metod nedir?
-
-Cevap: sort()
-
-28. Soru: Kullanıcıdan sayı alırken int(input()) neden kullanılır?
-
-Cevap: input() veriyi metin olarak alır, matematiksel işlem için tam sayıya çevirmek gerekir.
-
-29. Soru: sehir = "Ankara". print(sehir[0:2]) komutunun çıktısı nedir?
-
-Cevap: An.
-
-30. Soru: liste = [1, 2, 3, 4, 5]. Listenin son elemanını çıkaran komutu yazınız.
-
-Cevap: liste.pop()
-
-BÖLÜM 4: KARAR YAPILARI (IF - ELIF - ELSE) (%40 - 20 Soru)
-31. Soru: if kelimesinin Türkçe karşılığı nedir ve ne amaçla kullanılır?
-
-Cevap: "Eğer" demektir, bir koşulun doğru olup olmadığını kontrol etmek için kullanılır.
-
-32. Soru: Girilen sayı 0'dan büyükse "Pozitif" yazan Python kodunu yazınız.
+2. Soru (Kodlama): Kullanıcıdan adını ve soyadını ayrı ayrı alıp yan yana yazdıran kodu yazınız.
 
 Cevap: ```python
-if sayi > 0:
-print("Pozitif")
+ad = input("Adınız: ")
+soyad = input("Soyadınız: ")
+print(ad + " " + soyad)
 
 
-**33. Soru:** Bir sayının çift olup olmadığını kontrol eden `if` koşulu nasıl yazılır?  
-**Cevap:** `if sayi % 2 == 0:`
+**3. Soru (Teorik):** Akış diyagramında veri girişi (input) için hangi geometrik şekil kullanılır?  
+**Cevap:** Paralelkenar.
 
-**34. Soru:** `if` koşulu sağlanmadığında çalışan alternatif blok hangisidir?  
-**Cevap:** `else:`
-
-**35. Soru:** Bir öğrencinin notu 50 ve üzeriyse "Geçti", değilse "Kaldı" yazan kodu yazınız.  
+**4. Soru (Kodlama):** Kullanıcıdan bir tam sayı alıp bu sayının 5 katını ekrana yazdıran kodu yazınız.  
 **Cevap:** ```python
-if not >= 50:
+sayi = int(input("Sayı: "))
+print(sayi * 5)
+5. Soru (Teorik): Algoritma içerisinde bir değerin saklandığı ve isimlendirildiği birimlere ne denir?
+
+Cevap: Değişken.
+
+6. Soru (Kodlama): Kullanıcıdan alınan bir sayının karesini (üssünü) hesaplayan kodu yazınız.
+
+Cevap: ```python
+sayi = int(input("Sayı: "))
+print(sayi ** 2)
+
+
+**7. Soru (Teorik):** Bilgisayarın bir problemi çözmek için kullandığı "Giriş -> İşlem -> Çıkış" döngüsündeki "İşlem" adımına bir örnek veriniz.  
+**Cevap:** İki sayının toplanması veya bir koşulun kontrol edilmesi.
+
+**8. Soru (Kodlama):** Kullanıcıdan bir tam sayı alıp bu sayının 10 fazlasını ekrana yazdıran kodu yazınız.  
+**Cevap:** ```python
+sayi = int(input("Sayı girin: "))
+print(sayi + 10)
+9. Soru (Teorik): Mantıksal or (veya) operatörünün sonucunun False olması için koşullar nasıl olmalıdır?
+
+Cevap: Bağlanan tüm koşulların yanlış (False) olması gerekir.
+
+10. Soru (Kodlama): Kullanıcıdan iki sayı alıp bu sayıların ortalamasını tam sayı olarak (tam bölme ile) bulan kodu yazınız.
+
+Cevap: ```python
+s1 = int(input("1. Sayı: "))
+s2 = int(input("2. Sayı: "))
+print((s1 + s2) // 2)
+
+
+---
+
+### **BÖLÜM 3: VERİ YAPILARI VE LİSTELER (%40 - 20 Soru)**
+
+**11. Soru (Teorik):** `liste = [5, 10, 15, 20]` listesinde `20` değerinin indeksi kaçtır?  
+**Cevap:** 3.
+
+**12. Soru (Kodlama):** Kullanıcıdan bir okul ismi alıp bunu `okullar` isimli boş bir listeye ekleyen kodu yazınız.  
+**Cevap:** ```python
+okullar = []
+okul = input("Okul adı: ")
+okullar.append(okul)
+13. Soru (Teorik): Bir listenin uzunluğunu (eleman sayısını) hangi fonksiyon verir?
+
+Cevap: len()
+
+14. Soru (Kodlama): Kullanıcıdan bir kelime alın ve bu kelimenin karakter sayısını ekrana yazdırın.
+
+Cevap: ```python
+kelime = input("Kelime: ")
+print(len(kelime))
+
+
+**15. Soru (Teorik):** `liste[0]` ifadesi listenin hangi elemanını temsil eder?  
+**Cevap:** Listenin birinci (ilk) elemanını.
+
+**16. Soru (Kodlama):** Kullanıcıdan bir tam sayı alın ve bu sayıyı `sayilar = [1, 2, 3]` listesinin sonuna ekleyin.  
+**Cevap:** ```python
+sayilar = [1, 2, 3]
+yeni = int(input("Sayı: "))
+sayilar.append(yeni)
+17. Soru (Teorik): Bir listeyi kalıcı olarak küçükten büyüğe sıralayan komut hangisidir?
+
+Cevap: liste.sort()
+
+18. Soru (Kodlama): Kullanıcıdan bir şehir ismi alın ve bu ismin tüm harflerini büyük yaparak yazdırın.
+
+Cevap: ```python
+sehir = input("Şehir: ")
+print(sehir.upper())
+
+
+**19. Soru (Teorik):** `liste.pop()` komutu ne işe yarar?  
+**Cevap:** Listenin son elemanını siler.
+
+**20. Soru (Kodlama):** Kullanıcıdan bir tam sayı (indeks) alın ve `renkler = ["Kırmızı", "Mavi", "Yeşil"]` listesindeki o indeksteki rengi yazdırın.  
+**Cevap:** ```python
+renkler = ["Kırmızı", "Mavi", "Yeşil"]
+i = int(input("İndeks girin: "))
+print(renkler[i])
+21. Soru (Teorik): Python'da tırnak içinde yazılan "100" ifadesi hangi veri tipidir?
+
+Cevap: String (str).
+
+22. Soru (Kodlama): Kullanıcıdan alınan iki kelimeyi yan yana (boşluksuz) birleştiren kodu yazınız.
+
+Cevap: ```python
+k1 = input("1. Kelime: ")
+k2 = input("2. Kelime: ")
+print(k1 + k2)
+
+
+**23. Soru (Teorik):** Bir listenin içindeki belirli bir elemanı ismine göre silmek için hangi metod kullanılır?  
+**Cevap:** `remove()`
+
+**24. Soru (Kodlama):** Kullanıcıdan bir isim alın ve ismin ilk harfini ekrana yazdırın.  
+**Cevap:** ```python
+isim = input("İsim: ")
+print(isim[0])
+25. Soru (Teorik): liste = [10, 20, 30, 40, 50]. liste[1:3] komutu hangi elemanları verir?
+
+Cevap: [20, 30] (1. indeksten başlar, 3. indekse kadar -3 dahil değil- alır).
+
+26. Soru (Kodlama): Kullanıcıdan bir tam sayı alın ve bu sayının 3 katının 1 eksiğini yazdırın.
+
+Cevap: ```python
+s = int(input("Sayı: "))
+print((s * 3) - 1)
+
+
+**27. Soru (Teorik):** `int("50") + 10` işleminin sonucu nedir?  
+**Cevap:** 60.
+
+**28. Soru (Kodlama):** Kullanıcıdan bir şifre alın ve şifrenin uzunluğu 6'dan küçük mü diye kontrol eden bir mantıksal ifade yazın (Sadece True/False verecek).  
+**Cevap:** ```python
+sifre = input("Şifre: ")
+print(len(sifre) < 6)
+29. Soru (Teorik): liste.reverse() komutu ne işe yarar?
+
+Cevap: Listenin elemanlarını tersten sıralar.
+
+30. Soru (Kodlama): Kullanıcıdan bir tam sayı alın ve liste = [10, 20] listesinin başına (0. indekse) ekleyin.
+
+Cevap: ```python
+liste = [10, 20]
+s = int(input("Sayı: "))
+liste.insert(0, s)
+
+
+---
+
+### **BÖLÜM 4: KARAR YAPILARI (IF-ELIF-ELSE) (%40 - 20 Soru)**
+
+
+
+[Image of if-else flowchart diagram]
+
+
+**31. Soru (Teorik):** `if` yapısında koşulun sonuna hangi noktalama işareti konur?  
+**Cevap:** İki nokta üst üste (`:`).
+
+**32. Soru (Kodlama):** Kullanıcıdan bir tam sayı alın. Sayı 50'den büyükse "Geçti" yazan kodu yazınız.  
+**Cevap:** ```python
+notu = int(input("Notunuz: "))
+if notu > 50:
     print("Geçti")
-else:
-    print("Kaldı")
-36. Soru: Birden fazla koşulu kontrol etmek için if ile else arasına hangi komut gelir?
+33. Soru (Teorik): if ve else blokları arasındaki fark nedir?
 
-Cevap: elif
+Cevap: if koşul doğruysa çalışır, else ise koşul yanlışsa çalışır.
 
-37. Soru: if satırının sonuna hangi noktalama işareti konulmalıdır?
-
-Cevap: İki nokta üst üste (:)
-
-38. Soru: yas = 18. if yas >= 18: koşulu sağlandığında ekrana ne yazdırılacağını belirleyen boşluğa ne denir?
-
-Cevap: Girinti (Indentation).
-
-39. Soru: Kullanıcıdan alınan şifre "1234" ise "Giriş Başarılı" yazan kodu yazınız.
+34. Soru (Kodlama): Kullanıcıdan bir sayı alın. Sayı çift ise "Çift", değilse "Tek" yazan kodu yazınız.
 
 Cevap: ```python
-if sifre == "1234":
-print("Giriş Başarılı")
+s = int(input("Sayı: "))
+if s % 2 == 0:
+print("Çift")
+else:
+print("Tek")
 
 
-**40. Soru:** Bir sayının hem 3'e hem de 5'e bölündüğünü kontrol eden `if` satırını yazınız.  
-**Cevap:** `if sayi % 3 == 0 and sayi % 5 == 0:`
+**35. Soru (Teorik):** Python'da kod blokları içeriden yazılmazsa (girinti olmazsa) ne olur?  
+**Cevap:** Program "IndentationError" hatası verir ve çalışmaz.
 
-**41. Soru:** `x = 10`, `y = 20`. `if x > y:` koşulu doğru mudur?  
-**Cevap:** Hayır, yanlıştır (False).
-
-**42. Soru:** Hava sıcaklığı 30 dereceden fazlaysa "Sıcak", 15-30 arasıysa "Ilık" yazan `elif` yapısını yazınız.  
+**36. Soru (Kodlama):** Kullanıcıdan bir tam sayı alın. Sayı 0'dan büyükse "Pozitif", 0'dan küçükse "Negatif", 0 ise "Sıfır" yazan kodu yazınız.  
 **Cevap:** ```python
-if sicaklik > 30:
-    print("Sıcak")
-elif sicaklik >= 15:
-    print("Ilık")
-43. Soru: if 5 != 3: ifadesi doğru mudur?
+s = int(input("Sayı: "))
+if s > 0:
+    print("Pozitif")
+elif s < 0:
+    print("Negatif")
+else:
+    print("Sıfır")
+37. Soru (Teorik): Birden fazla koşulu "veya" mantığıyla bağlamak için hangi operatör kullanılır?
 
-Cevap: Evet, doğrudur. (5, 3'e eşit değildir).
+Cevap: or operatörü.
 
-44. Soru: Kullanıcının girdiği isim "Ali" ise veya "Veli" ise "Merhaba" yazan kodu yazınız.
+38. Soru (Kodlama): Kullanıcıdan bir şifre isteyin. Şifre "123456" ise "Giriş Başarılı", değilse "Hatalı Şifre" yazan kodu yazınız.
 
-Cevap: if isim == "Ali" or isim == "Veli": print("Merhaba")
+Cevap: ```python
+sifre = input("Şifre: ")
+if sifre == "123456":
+print("Giriş Başarılı")
+else:
+print("Hatalı Şifre")
 
-45. Soru: Bir sayının 10 ile 100 arasında (sınırlar dahil değil) olup olmadığını kontrol eden kodu yazınız.
 
-Cevap: if sayi > 10 and sayi < 100:
+**39. Soru (Teorik):** `if 10 != 5:` ifadesinin sonucu nedir?  
+**Cevap:** True (Çünkü 10, 5'e eşit değildir).
 
-46. Soru: if bloğu içine hiçbir kod yazılmayacaksa hata almamak için ne kullanılır?
+**40. Soru (Kodlama):** Kullanıcıdan bir tam sayı alın. Eğer sayı hem 2'ye hem de 5'ye tam bölünüyorsa "Tam Bölünür" yazan kodu yazınız.  
+**Cevap:** ```python
+s = int(input("Sayı: "))
+if s % 2 == 0 and s % 5 == 0:
+    print("Tam Bölünür")
+41. Soru (Teorik): Koşul içinde kullanılan == operatörü ne anlama gelir?
 
-Cevap: pass
+Cevap: "Eşit mi?" kontrolünü yapar.
 
-47. Soru: Girilen bir harfin "a" olup olmadığını kontrol eden kodu yazınız.
+42. Soru (Kodlama): Kullanıcıdan yaşını alın. Yaşı 18 veya daha büyükse "Ehliyet alabilir" yazan kodu yazınız.
 
-Cevap: if harf == "a":
+Cevap: ```python
+yas = int(input("Yaşınız: "))
+if yas >= 18:
+print("Ehliyet alabilir")
 
-48. Soru: Bir listenin içinde "elma" olup olmadığını kontrol eden if yapısını yazınız.
 
-Cevap: if "elma" in meyveler:
+**43. Soru (Teorik):** `if not 5 > 10:` ifadesinin sonucu neden `True` olur?  
+**Cevap:** `5 > 10` yanlıştır (False), `not` operatörü yanlışı doğruya çevirir.
 
-49. Soru: x = 5. if x: yazıldığında bu koşul doğru sayılır mı?
+**44. Soru (Kodlama):** Kullanıcıdan bir gün ismi alın. Eğer "Cumartesi" veya "Pazar" girilirse "Hafta sonu" yazan kodu yazınız.  
+**Cevap:** ```python
+gun = input("Gün: ")
+if gun == "Cumartesi" or gun == "Pazar":
+    print("Hafta sonu")
+45. Soru (Teorik): Bir if bloğu içinde başka bir if bloğu kullanılmasına ne ad verilir?
 
-Cevap: Evet, Python'da 0 dışındaki sayılar mantıksal olarak True kabul edilir.
+Cevap: İç içe (Nested) Karar Yapısı.
 
-50. Soru: Bir sayının hem pozitif hem de tek sayı olduğunu kontrol eden kodu yazınız.
+46. Soru (Kodlama): Kullanıcıdan alınan bir sayının 10 ile 50 arasında olup olmadığını kontrol eden kodu yazınız.
 
-Cevap: if sayi > 0 and sayi % 2 != 0:
+Cevap: ```python
+s = int(input("Sayı: "))
+if s > 10 and s < 50:
+print("Aralıkta")
+
+
+**47. Soru (Teorik):** `if` koşulu sağlandığında hiçbir şey yapmamak için hangi anahtar kelime kullanılır?  
+**Cevap:** `pass`
+
+**48. Soru (Kodlama):** Kullanıcıdan kullanıcı adı ve şifre alın. Kullanıcı adı "admin" ve şifre "123" ise "Sistem Açıldı" yazan kodu yazınız.  
+**Cevap:** ```python
+kullanici = input("Kullanıcı Adı: ")
+sifre = input("Şifre: ")
+if kullanici == "admin" and sifre == "123":
+    print("Sistem Açıldı")
+49. Soru (Teorik): Karar yapılarında kullanılan != operatörünün anlamı nedir?
+
+Cevap: Eşit değildir.
+
+50. Soru (Kodlama): Kullanıcıdan bir harf alın. Eğer harf "a" ise "İlk Harf", değilse "Diğer Harf" yazan kodu yazınız.
+
+Cevap: ```python
+harf = input("Harf girin: ")
+if harf == "a":
+print("İlk Harf")
+else:
+print("Diğer Harf")
